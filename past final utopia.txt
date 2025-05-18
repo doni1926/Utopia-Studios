@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utopia Studios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: #ffffff;
+      color: #111111;
+      line-height: 1.6;
+    }
+    header {
+      padding: 3rem 2rem;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .products {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .product {
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+    .product:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    }
+    .product h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    .product p {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .product a {
+      text-decoration: none;
+    }
+    .product button {
+      padding: 0.6rem 1.2rem;
+      border: none;
+      background-color: #111;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .product button:hover {
+      background-color: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Utopia Studios</h1>
+    <p>Your gateway to digital creation.</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom: 2rem; font-weight:600">Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Game Dev Starter Pack</h3>
+        <p>A complete beginner’s toolkit for making your first indie game.</p>
+        <a href="https://buy.stripe.com/00w6oAbU34S85pN3xVdZ600" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (10€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>Pixel Asset Bundle</h3>
+        <p>High-quality pixel art assets for retro game projects.</p>
+        <a href="https://buy.stripe.com/5kQ00cbU33O48BZ7ObdZ601" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (6€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>Unity Templates</h3>
+        <p>Drag-and-drop templates to kickstart your Unity projects.</p>
+        <a href="https://buy.stripe.com/6oU5kw2jtgAQ7xV0lJdZ602" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (8€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>Sound FX Pack</h3>
+        <p>Professional sound effects for your games.</p>
+        <a href="https://buy.stripe.com/14AfZa8HR0BS05tc4rdZ603" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (4€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>UI Pack</h3>
+        <p>Beautiful user interface elements for games and apps.</p>
+        <a href="https://buy.stripe.com/aFabIU5vF2K05pN9WjdZ604" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (5€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>2D Character Pack</h3>
+        <p>Unique 2D character designs for your games.</p>
+        <a href="https://buy.stripe.com/4gM28k5vF0BS2dB4BZdZ605" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (7€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>Mobile Game Icons</h3>
+        <p>Icons tailored for mobile games and apps.</p>
+        <a href="https://buy.stripe.com/bJeaEQ8HRfwMdWjb0ndZ606" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (3€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>Isometric Tileset</h3>
+        <p>Tileset for isometric game design.</p>
+        <a href="https://buy.stripe.com/6oUfZa0bl1FW2dBgkHdZ607" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (9€)</button>
+        </a>
+      </div>
+      <div class="product">
+        <h3>Marketing Kit</h3>
+        <p>All you need to promote your game.</p>
+        <a href="https://buy.stripe.com/fZubIUe2bckAdWj4BZdZ608" target="_blank" rel="noopener noreferrer">
+          <button>Buy Now (2€)</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+     <h2 style="text-align:center; margin-bottom: 2rem; font-weight:600">Contact Us</h2>
+  <div style="text-align:center; max-width:600px; margin:auto; font-size:1rem;">
+    <p>If you have any questions or need support, feel free to reach out to us.</p>
+   <p><strong>Email:</strong> utopiapeoplehelp@gmail.com </p>
+
+    
+    &copy; 2025 Utopia Studios. All rights reserved.
+   </footer>
+</body>
+</html>
